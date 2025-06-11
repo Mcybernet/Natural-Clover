@@ -2792,23 +2792,23 @@ body,
   position: relative;
   z-index: 1;
   overflow: hidden;
-  height: 600px;
+  min-height: 600px;
+  max-height: 600px;
 }
 
-.features-carousel-area .item .info {
 
-}
 
 .features-carousel-area .item .info .info-description{
   scrollbar-width: none;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   overflow-y: scroll !important;
-  height: 250px;
+  height: 240px;
 }
 
 .features-carousel-area .item .info .info-description::-webkit-scrollbar{
   display: none;
 }
+
 .features-carousel-area .item::after {
   position: absolute;
   left: 0;
