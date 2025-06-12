@@ -94,7 +94,7 @@
   .features-carousel-area .item {
     display: block;
     text-align: center;
-    height: 300px;
+    height: 100%;
   }
 
   .features-carousel-area .item i {
@@ -591,7 +591,7 @@
   .features-carousel-area .item {
     display: block;
     text-align: center;
-    height: 550px;
+    height: 100%;
 
   }
 
@@ -1077,7 +1077,7 @@
   }
 
   .features-carousel-area .item {
-
+    height: 100%;
   }
 
   .features-carousel-area .item .icon{
@@ -1113,11 +1113,10 @@
   }
 
 .features-carousel-area .item {
-  min-height: 500px;
-  max-height: 600px;
+  height: 100%;
 }
   .features-carousel-area .item .icon{
-    width: 100%;
+    width: 70%;
     margin: auto;
   }
 
@@ -1173,7 +1172,7 @@
 
 
 /* Custom layout. */
-@media only screen and (max-width: 1300px) {
+@media only screen and (min-width: 1300px) {
 
   .pricing-area::after {
     position: absolute;
@@ -1188,6 +1187,10 @@
 
   .pricing-area .shape-top {
     display: none;
+  }
+
+  .features-carousel-area .item {
+    height: 100%;
   }
 }
 
