@@ -89,6 +89,10 @@ html, body, .wrapper {
   color: var(--black-hdi);
 }
 
+.bg-black-hdi{
+  background-color: var(--black-hdi);
+}
+
 .yellow-hdi{
   color: var(--yellow-hdi);
 }
@@ -5659,6 +5663,7 @@ footer ul li:first-child {
 footer ul li a {
   color: #999;
   font-weight: 600;
+  text-decoration: none;
 }
 
 footer ul li a i {
@@ -5724,6 +5729,7 @@ footer .f-item.about {
 footer.bg-dark li a, 
 footer.bg-dark li {
   color: #adb5bd;
+  
 }
 
 footer.bg-dark .f-items form input, 
@@ -5777,7 +5783,7 @@ footer.bg-dark .footer-bottom {
 
 .footer-bottom p {
   margin: 0;
-  color: #232323;
+  color: #cccccc;
 }
 
 footer.bg-dark .footer-bottom p {
@@ -5799,6 +5805,7 @@ footer.bg-dark .footer-bottom a {
 
 .footer-bottom p a {
   color: var(--red-hdi) !important;
+  text-decoration: none;
 }
 
 
