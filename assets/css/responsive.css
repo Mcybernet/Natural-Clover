@@ -133,8 +133,8 @@
   }
 
   .chooseus-area .thumb {
-    padding-bottom: 120px;
-    margin-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
   }
 
   .chooseus-area.reverse .thumb {
@@ -649,8 +649,8 @@
   }
 
   .chooseus-area .thumb {
-    padding-bottom: 50px;
-    margin-top: 50px;
+    padding-bottom: 0px;
+    margin-top: 0px;
   }
 
   .chooseus-area.reverse .thumb {
